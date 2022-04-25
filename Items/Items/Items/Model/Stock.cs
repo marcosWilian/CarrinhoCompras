@@ -4,7 +4,6 @@
     public class Stock : ViewStock
     {
         public List<Book>? Booking { get; set; }
-
     }
 
     public class ViewStock

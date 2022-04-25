@@ -72,6 +72,22 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Items/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/Items.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Items.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -200,10 +216,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Items/1.0.0": {
+      "type": "project",
+      "path": "../Items/Items.csproj",
+      "msbuildProject": "../Items/Items.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Items >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -233,7 +255,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\CarrinhoComprasNET\\CarrinhoCompras\\Items\\Items\\Items\\Items.csproj": {
+              "projectPath": "C:\\CarrinhoComprasNET\\CarrinhoCompras\\Items\\Items\\Items\\Items.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

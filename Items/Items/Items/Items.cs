@@ -28,7 +28,7 @@ namespace Items
                     Category = "HeadPhones 2",
                     CreatedDate = DateTime.Now,
                     ImageURL = "https://m.media-amazon.com/images/I/71EHw68EScL._AC_SX679_.jpg",
-                    Price = 100.00M,
+                    Price = 150.00M,
                     ProductName = "Head Phone Ultra Maneiro"
                 },
             },
@@ -41,7 +41,7 @@ namespace Items
                     Category = "HeadPhones 3",
                     CreatedDate = DateTime.Now,
                     ImageURL = "https://m.media-amazon.com/images/I/71EHw68EScL._AC_SX679_.jpg",
-                    Price = 100.00M,
+                    Price = 200.00M,
                     ProductName = "Head Phone Ultra Maneiro"
                 },
             },
